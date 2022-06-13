@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Diogo Moreira",
+        "idade": 27,
+        "nomeCurso": ["Academia do Flutter", "Imersao Getx"]
+    },
+    {
+        "nome": "Joyce costa do Nascimento",
+        "idade": 27,
+        "nomeCurso": ["Academia do Flutter", "Imersao Getx"]
+    },
+    {
+        "nome": "Diogo Moreira",
+        "idade": 27,
+        "nomeCurso": ["Academia do Flutter", "Imersao Getx"]
+    }
+]

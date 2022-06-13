@@ -1,0 +1,30 @@
+{
+    "nome": "Diogo Moreira",
+    "idade": 27,
+    "nomeCurso": ["Academia do Flutter", "Imersao Getx"],
+    "cursos": [
+        {
+            "id": 1,
+            "nome": "Academia do flutter",
+            "isAluno": true
+        },
+        {
+            "id": 2,
+            "nome": "Imersao Getx",
+            "isAluno": false
+        }
+    ],
+    "endereço":{
+        "rua": "Rua X",
+        "numero": 300,
+        "CEP": "0900090802",
+        "telefone":{
+            "ddd":11,
+            "telefone": "928985333",
+            "cidade": {
+                "id": 1,
+                "nome": "Monte Alegre do sul"
+            }
+        }
+    }
+}
