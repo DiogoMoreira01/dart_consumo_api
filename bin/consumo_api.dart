@@ -1,8 +1,15 @@
 import 'dart:convert';
+import 'package:consumo_api/controller/aluno_controller.dart';
+import 'package:consumo_api/models/telefone.dart';
 
-import 'package:consumo_api/consumo_api.dart' as consumo_api;
+void main() {
+  //AlunoController().findAll();
+  //AlunoController().findById("1");
+  //AlunoController().update();
+  AlunoController().insert();
+}
 
-void main(List<String> arguments) {
+void main2(List<String> arguments) {
   final cidadeJson = '''
   [
     {
@@ -33,4 +40,18 @@ void main(List<String> arguments) {
   print(cidadeMap);
 
   cidadeMap.forEach((city) => print(city['regiao']['nome']));
+
+  final telefoneJson = '''
+{
+  "ddd": 19,
+  "telefone": "534987435465"
+}
+''';
+
+  final telefone = Telefone.fromJson(telefoneJson);
+
+  print(telefone.ddd);
+  print(telefone.telefone);
+  print(telefone.toJson());
+  print(telefone.toMap());
 }
